@@ -21,7 +21,7 @@ $router->get(
 
 
 $router->get(
-    'dog/races',
+    '/dog/races',
     [
         'uses' => 'RacesController@list',
         'as'   => 'races-list'
