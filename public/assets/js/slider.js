@@ -14,7 +14,7 @@ const slider = {
 
             method: 'GET',
             mode: 'cors',
-            cache: 'no-cache'
+            cache: 'cache'
 
         };
 

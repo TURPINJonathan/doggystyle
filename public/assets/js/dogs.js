@@ -14,7 +14,7 @@ const dogs = {
 
             method: 'GET',
             mode: 'cors',
-            cache: 'no-cache'
+            cache: 'cache'
 
         };
 
