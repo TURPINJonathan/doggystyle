@@ -18,7 +18,7 @@ const desc = {
 
             method: 'GET',
             mode: 'cors',
-            cache: 'cache'
+            cache: 'default'
 
         };
 
