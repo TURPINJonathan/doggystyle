@@ -20,4 +20,4 @@
 @yield('content')
 
 
-@include('_partials._footer')
+<!--@include('_partials._footer')-->
