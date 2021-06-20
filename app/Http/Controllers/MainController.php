@@ -21,4 +21,9 @@ class MainController extends Controller
         return view('contact');
     }
 
+    public function advices(){
+
+        return view('advices');
+    }
+
 }

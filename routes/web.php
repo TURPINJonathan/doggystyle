@@ -35,3 +35,20 @@ $router->get(
         'as'   => 'main-contact'
     ]
 );
+
+$router->get(
+    '/advices',
+    [
+        'uses' => 'MainController@advices',
+        'as'   => 'main-advices'
+    ]
+);
+
+
+$router->get(
+    '/dog/races/{id}',
+    [
+        'uses' => 'DogController@desc',
+        'as'   => 'dog-desc'
+    ]
+);

@@ -36,9 +36,10 @@ const dogs = {
       jsonPromise.then(
         function( jsonResponse )
         {
-            console.log(jsonResponse)
+          console.log(jsonResponse)
             for(let index = 0; index < 172; index++){
                 let newElement = document.getElementById('templateRaces').content.cloneNode(true);
+                newElement.querySelector('a').href = "races/" + index;
                 newElement.querySelector('img').src = jsonResponse[index].image.url;
                 newElement.getElementById('nameRace').textContent = jsonResponse[index].name;
                 document.querySelector('.item').appendChild(newElement);

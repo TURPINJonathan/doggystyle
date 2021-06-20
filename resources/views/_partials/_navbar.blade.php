@@ -12,7 +12,7 @@
             <a class="uk-navbar-item uk-logo" href="#"><i class="fas fa-paw"></i></a>
             <div class="uk-navbar-center-right"><div>
                 <ul class="uk-navbar-nav">
-                    <li><a href="#">Conseils</a></li>
+                    <li><a href="<?= route('main-advices')?>">Conseils</a></li>
                     <li><a href="<?= route('main-contact')?>">Contact</a></li>
                 </ul>
             </div></div>
